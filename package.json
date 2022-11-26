@@ -1,4 +1,16 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Steps to create backend server\r 1. Open root directory in terminal\r 2. create index.js file\r 2.5 npm init -y\r 3. install inital packages which is required to create server(2 package file and 1 node modules folder is formed as a result)\r 4. Make two files\r    a> .env file=> it stores sensitive information which is not supposed to be hosted live, but are used in code. \r         e.g. Mongodb creds, Configuration keys, admin id password, jwt key\r         This .env file is not pushed while pushing to github or any other deployment platform\r     b> .gitignore file. This file stores name of those files which are not pushed\r 5. We start creating server on index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^6.7.3",
