@@ -19,3 +19,20 @@ Requests coming from frontend
 3. Details submission of user
 4. Request for getting all users
 
+
+Database is compass when we were working on local and atlas while hosting
+Local => compass
+Live=> Atlas\
+
+Atlas Configuration
+1. Open Atlas official site
+2. Sign in with google
+3. Click New Project on top left
+4. Click on build Database
+5. Enter username and password and save password
+5. Go to Network access and select "Allow access from anywhere"
+6. Come on Database and click on connect
+7. Connect your application
+8. You will get one URL, copy and save it.
+9. Thats it, Now paste the copied url in your db connection code of server 
+    by replacing password with actual password
